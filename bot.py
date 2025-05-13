@@ -11,6 +11,10 @@ from telegram.ext import (
 )
 from openpyxl import Workbook
 from io import BytesIO
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
